@@ -5,3 +5,5 @@ app.get('/', (req, res) => {
      res.sendFile('index.html', {root: __dirname + '/public/'});
 });
 app.listen(process.env.PORT || 5000)
+
+console.log ("I'm running");
